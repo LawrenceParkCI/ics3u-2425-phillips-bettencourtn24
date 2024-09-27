@@ -1,5 +1,9 @@
 package unit1;
-
+/**
+ * Program showing the Bingo rules and bingo card example.
+ * September 27, 2024
+ * @author Noa Phillips-Bettencourt
+ */
 public class Bingo {
 /**
  * Entry point to the program.
