@@ -1,5 +1,9 @@
 package unit1;
-
+/**
+ * Program showing my name and an ascii generated image. 
+ * September 27, 2024
+ * @author Noa Phillips-Bettencourt
+ */
 public class Asciinameart {
 	/**
 	 * Entry point to the program
