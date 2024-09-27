@@ -10,33 +10,33 @@ public class Asciinameart {
 	System.out.println("\t/    /(  O )/    \\   ) _ ( ) _)   )(    )(   ) _) /    /( (__(  O )) \\/ ( )   /  )(   ");
 	System.out.println("\t\\_)__) \\__/ \\_/\\_/  (____/(____) (__)  (__) (____)\\_)__) \\___)\\__/ \\____/(__\\_) (__) ");
 	System.out.println("");
-	System.out.format("%50s","########..........,#######. ");
+	System.out.format("\t%50s","########..........,#######. ");
 	System.out.println("");
-	System.out.format("%53s", "###///,,,,///##,...##**********/## ");
+	System.out.format("\t%53s", "###///,,,,///##,...##**********/## ");
 	System.out.println("");
-	System.out.format("%54s", "#////,,,,,,,,,**####***************##");
+	System.out.format("\t%54s", "#////,,,,,,,,,**####***************##");
 	System.out.println("");
-	System.out.format("%54s","#///////////,,,,**##*****************#");
+	System.out.format("\t%54s","#///////////,,,,**##*****************#");
 	System.out.println("");
-	System.out.format("%55s","#/////////***,,**********************##");
+	System.out.format("\t%55s","#/////////***,,**********************##");
 	System.out.println("");
-	System.out.format("%56s","#(///////*****************************#*");
+	System.out.format("\t%56s","#(///////*****************************#*");
 	System.out.println("");
-	System.out.format("%54s", "#//////***##**##*****#**(#*********##");
+	System.out.format("\t%54s", "#//////***##**##*****#**(#*********##");
 	System.out.println("");
-	System.out.format("%53s","##////***************************#/");
+	System.out.format("\t%53s","##////***************************#/");
 	System.out.println("");
-	System.out.format("%52s","##///**.  *****##*****  .*****##(");
+	System.out.format("\t%52s","##///**.  *****##*****  .*****##(");
 	System.out.println("");
-	System.out.format("%49s","##//**********************##");
+	System.out.format("\t%49s","##//**********************##");
 	System.out.println("");
-	System.out.format("%47s","/##*******************##");
+	System.out.format("\t%47s","/##*******************##");
 	System.out.println("");
-	System.out.format("%44s","##**************##");
+	System.out.format("\t%44s","##**************##");
 	System.out.println("");
-	System.out.format("%41s","##********##");
+	System.out.format("\t%41s","##********##");
 	System.out.println("");
-	System.out.format("%38s","###*##");
+	System.out.format("\t%38s","###*##");
 	}
 
 }
