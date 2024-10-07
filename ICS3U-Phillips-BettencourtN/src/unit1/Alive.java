@@ -1,9 +1,45 @@
 package unit1;
 
+import java.util.Scanner;
+
 public class Alive {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in); 
+		//			declare variables 
+		int month, day, year, born, today, daysperyear, sleep;
+		//get the user input
+		System.out.println("AREA PROGRAM");
+		System.out.println("Type in the month you were born and <ENTER>:");
+		month = sc.nextInt();
+		
+		System.out.println("Type in the day you were born and <ENTER>:");
+		day = sc.nextInt();
+		
+		System.out.println("Type in the year you were born and <ENTER>:");
+		year = sc.nextInt();
+
+		System.out.print("Type in today's date and <Enter>:");
+		today = sc.nextInt();
+
+		System.out.println("Type in how many days are in a year and <Enter>:");
+		daysperyear = sc.nextInt();
+
+		System.out.println("Type in how hours of sleep you get everyday and <Enter>:");
+		sleep = sc.nextInt();
+
+
+		//calculate the area
+		int days = length * width* depth;
+
+		//print the output 
+		System.out.println(" You have been alive for " + days); 
+		sc.close();
+		
+		System.out.println("You have slept for " + hours);
+		sc.close();
+
 
 	}
 
