@@ -65,7 +65,7 @@ public class UsingMathMethods {
 		//Why does the pow method have 2 parameters? Explain the purpose of these 2 parameters.
 		// The pow method has two parameters because you need th base and the expoenent to calculate the power of a number. 
 
-		
+
 		System.out.println("Part B");
 		System.out.println("Type in any real number");
 		num = sc.nextDouble();
@@ -88,7 +88,7 @@ public class UsingMathMethods {
 
 		//Write down the results produced by your program when the real number 7.8985 and
 		//the integer 3 are input.
-		
+
 		// REAL NUMBER	SQUARE ROOT	RAISED TO POWER 3
 		// 7.8985		2.8104270138183627	492.75820832162503
 
@@ -96,10 +96,10 @@ public class UsingMathMethods {
 		//power can be input.
 		//Write down the results produced by your program when the following are input:
 		//a) the number 16 and the real number power 0.5
-		
+
 		//REAL NUMBER	SQUARE ROOT	RAISED TO POWER 0.5
 		// 16.0		4.0	4.0
-		
+
 		//b) the number 8 and the real number power 0.33
 
 		//REAL NUMBER	SQUARE ROOT	RAISED TO POWER 0.33
@@ -108,7 +108,8 @@ public class UsingMathMethods {
 
 		//Does your program give a different answer if 0.3333333 is input instead of 0.33 for the power?
 
-
+		//	REAL NUMBER	SQUARE ROOT	RAISED TO POWER 0.3333333
+		// 	8.0		2.8284271247461903	1.9999998613705687
 
 
 	}
