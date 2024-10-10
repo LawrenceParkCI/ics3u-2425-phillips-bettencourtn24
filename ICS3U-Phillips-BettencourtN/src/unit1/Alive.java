@@ -30,6 +30,9 @@ public class Alive {
 		sleep = sc.nextInt();
 
 
+		int length = 0;
+		int width = 0;
+		int depth = 0;
 		//calculate the area
 		int days = length * width* depth;
 
@@ -37,6 +40,7 @@ public class Alive {
 		System.out.println(" You have been alive for " + days); 
 		sc.close();
 		
+		String hours = null;
 		System.out.println("You have slept for " + hours);
 		sc.close();
 
