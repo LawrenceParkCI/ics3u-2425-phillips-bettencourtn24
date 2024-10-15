@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 /**
 * Description:
-* Date:
-* @author 
+* Date: 9 Oct, 2024
+* @author Noa Phillips-Bettencourt
 */
 public class Casting {
  
