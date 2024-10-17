@@ -1,9 +1,17 @@
 package unit1;
-
+/** 
+ * Description: DFOutput Worksheet 
+ * Date: 17 October, 2024
+ * @author Noa Phillips-Bettencourt 
+ */
 		import java.text.DecimalFormat;
 		import java.util.Scanner;
 
 		public class DFOutput {
+			/** 
+			 * 
+			 * @param args unused 
+			 */
 
 		 public static void main(String[] args) {
 		  Scanner sc = new Scanner(System.in);
