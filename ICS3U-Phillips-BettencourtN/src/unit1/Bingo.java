@@ -1,4 +1,6 @@
 package unit1;
+
+import java.util.Scanner;
 /**
  * Program showing the Bingo rules and bingo card example.
  * September 27, 2024

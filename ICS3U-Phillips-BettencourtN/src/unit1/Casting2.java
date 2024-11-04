@@ -1,4 +1,6 @@
 package unit1;
+
+import java.util.Scanner;
 /**
  * Description:
  * Date: 15 October, 2024

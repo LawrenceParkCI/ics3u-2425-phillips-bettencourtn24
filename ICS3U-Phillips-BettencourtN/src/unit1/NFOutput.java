@@ -1,17 +1,17 @@
 package unit1;
+
+import java.text.NumberFormat;
+import java.util.Scanner;
 /**
  * Description: NFOutput worksheet 
  * Date: 17 October, 2024
  * @author Noa Phillips Bettencourt
  */
-import java.text.NumberFormat;
-import java.util.Scanner;
-
 public class NFOutput {
-/**
- * Entry point to the program
- * @param args unused 
- */
+	/**
+	 * Entry point to the program
+	 * @param args unused 
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		final double TAX_RATE = 0.13;

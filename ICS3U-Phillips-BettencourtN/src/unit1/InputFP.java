@@ -8,12 +8,12 @@ import java.util.Scanner;
  * @author Noa Phillips-Bettencourt
  */
 public class InputFP {
-/** 
- * This is the entry point to the program 
- * @param args unused 
- */
+	/** 
+	 * This is the entry point to the program 
+	 * @param args unused 
+	 */
 	public static void main(String[] args) {
-		
+
 		Object system;
 		Scanner sc = new Scanner(System.in);
 		double num1, num2; 
@@ -21,12 +21,12 @@ public class InputFP {
 		num1= sc.nextDouble();
 		System.out.println("Type in another floating-point and <Enter>:");
 		num2 = sc.nextDouble();
-		
+
 		System.out.println();
-		
+
 		System.out.println("The first number entered was " + num1);
 		System.out.println("the second number entered was" + num2);
-		
+
 	}
 
 }

@@ -2,13 +2,13 @@ package unit1;
 
 /**
  * Description: Date:September 30,2024
- * 
+ * Date: October 23, 2024
  * @author Noa Phillips-Bettencourt
  */
 public class CreatingVariables {
 	/**
-	 *
-	 * @param
+	 * entry point to the program 
+	 * @param unused 
 	 */
 	public static void main(String[] args) {
 		System.out.println("Warm-up");

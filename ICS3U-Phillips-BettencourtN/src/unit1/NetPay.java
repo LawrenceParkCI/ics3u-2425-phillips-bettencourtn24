@@ -1,8 +1,16 @@
 package unit1;
 
 import java.util.Scanner;
-
+/** 
+ * Description: Net pay worksheet 
+ * Date: October 23, 2024
+ * @author Noa Phillips-Bettencourt
+ */
 public class NetPay {
+	/** 
+	 * Entry point to the program 
+	 * @param args unused
+	 */
 
 	public static void main(String[] args) {
 
@@ -19,7 +27,7 @@ public class NetPay {
 
 		System.out.println("Type in the hours worked and <Enter>:");
 		hours = sc.nextInt();
-		
+
 		System.out.println("Type in the mandatory tax deduction and <Enter>:");
 		tax = sc.nextDouble();
 

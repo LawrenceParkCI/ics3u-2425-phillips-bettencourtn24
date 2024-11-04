@@ -1,4 +1,6 @@
 package unit1;
+
+import java.util.Scanner;
 /**
  * Program showing my name and an ascii generated image. 
  * September 27, 2024

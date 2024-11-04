@@ -19,10 +19,10 @@ public class MakeLabels {
 		String name;
 		System.out.println("Type in the subject and press <Enter>");
 		subject = sc.nextLine();
-		
+
 		System.out.println("Type in the name and press <Enter>");
 		name = sc.nextLine();
-		
+
 		System.out.println();
 		System.out.println("******************************");
 		System.out.println(name);

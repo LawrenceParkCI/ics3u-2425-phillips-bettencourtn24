@@ -6,7 +6,7 @@ import java.text.NumberFormat;
 import java.time.LocalDateTime;
 
 /** 
- * Description:
+ * Description: Unit 1 Final assignment 
  * Date: 21 October, 2024
  * @author Noa Phillips- Bettencourt 
  */
@@ -57,7 +57,7 @@ public class GroceryShopping {
 
 		double itemTotalPrice1 = itemCost1*itemAmount1, itemTotalPrice2 = itemCost2*itemAmount2, 
 				cost = itemTotalPrice1 + itemTotalPrice2, tax = 0.13, total = cost + cost*tax, taxAmnt = cost*tax;
-		
+
 		long roundedTotalDollars = Math.round(total); // Rounded to nearest dollar
 		double roundedTotalCents = Math.round(total * 20) / 20.0; // Rounded to nearest 5 cents
 
@@ -72,9 +72,8 @@ public class GroceryShopping {
 		System.out.format("\n%61s%18s","Subtotal:",money.format(cost));
 		System.out.format("\n%61s%18s","Tax ("+ percentage.format(tax)+"):",money.format(taxAmnt));
 		System.out.format("\n%61s%18s","Total:",money.format(total));
-		System.out.format("\n\n%63s","Thank you for shopping at " + "Noa’s" + " grocery. Hope to see you again!");
+		System.out.format("\n\n%63s","Thank you for shopping at " + "Noa’s" + " grocery. We hope to see you again!");
 
-		System.out.println();
-		System.out.println("Thank you for shopping at Noa's Grocery! We hope to see you again soon!");
+
 	}
 }

@@ -1,4 +1,6 @@
 package unit1;
+
+import java.util.Scanner;
 /**
  * Date: October 1, 2024
  * Description:
@@ -6,8 +8,8 @@ package unit1;
  */
 public class MathOperators {
 	/**
-	 *
-	 * @param
+	 * Entry point to the program 
+	 * @param args unused 
 	 */
 	public static void main (String [] args) {
 		/*
@@ -56,7 +58,7 @@ public class MathOperators {
 		System.out.println("Yes it is because if you are following the rules of BEDMAS the answers are expected.");;
 		//* Part 2 - Calculate Using Operators
 		//* Print out, using one println statement, what is 45 degrees Celsius is in Fahrenheit
-		
+
 		System.out.println();
 		//*  Print out, using a print and a println statement, what 900 Fahrenheit is in Celsius
 

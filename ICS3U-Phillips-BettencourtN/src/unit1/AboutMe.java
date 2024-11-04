@@ -7,10 +7,10 @@ import java.io.PrintStream;
  * @author Noa Phillips-Bettencourt
  */
 public class AboutMe {
-/**
- * Entry point to the program.
- * @param args unused
- */
+	/**
+	 * Entry point to the program.
+	 * @param args unused
+	 */
 	public static void main(String[] args) {
 		// This prints hello to the system console
 		System.out.println("About Me:");
@@ -44,7 +44,7 @@ public class AboutMe {
 		System.out.println("-------------------------------------------------------------------");
 		PrintStream format1 = System.out.format("Day: %-15sClass Order: %8s", "Tuesday", "9:00-10:15: FIF3U5-2 A.Alexanian"); 
 		System.out.println("");
-		
+
 		System.out.format("%33s%-15s", "", "10:20-11:40: ICS3U1-1 C.Kemp");
 		System.out.println("");
 		System.out.println("");
@@ -59,7 +59,7 @@ public class AboutMe {
 		System.out.println("-------------------------------------------------------------------");
 		PrintStream format11 = System.out.format("Day: %-15sClass Order: %8s", "Wednesday", "9:55-10:55:  ICS3U1-1 C.Kemp"); 
 		System.out.println("");
-		
+
 		System.out.format("%33s%-15s", "", "11:00-12:00:  FIF3U5-2 A.Alexanian");
 		System.out.println("");
 		System.out.println("");
@@ -99,5 +99,5 @@ public class AboutMe {
 		System.out.format("%33s%-15s", "","2:00- 3:15pm: HSP3U1-2 A.Djuricic");
 		System.out.println("");
 		System.out.println("");
-		}
+	}
 }

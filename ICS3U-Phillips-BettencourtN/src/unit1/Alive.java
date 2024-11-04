@@ -1,9 +1,16 @@
 package unit1;
 
 import java.util.Scanner;
-
+/**
+ * Description: Alive worksheet 
+ * Date: October 23, 2024
+ * @author Noa Phillips-Bettencourt
+ */
 public class Alive {
-
+	/**
+	 * Entry point to the program 
+	 * @param args unused 
+	 */
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in); 

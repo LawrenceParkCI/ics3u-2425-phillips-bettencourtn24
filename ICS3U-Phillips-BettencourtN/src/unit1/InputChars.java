@@ -1,9 +1,16 @@
 package unit1;
 
 import java.util.Scanner;
-
+/** 
+ * Description: Character Worksheet 
+ * Date:October 12 2024
+ * @author Noa Phillips-Bettencourt 
+ */
 public class InputChars {
-
+	/** 
+	 * Entry point to the program 
+	 * @param args unused 
+	 */
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner (System.in);
