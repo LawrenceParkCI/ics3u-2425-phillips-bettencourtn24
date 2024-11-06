@@ -19,32 +19,32 @@ public class IfStatement2 {
     System.out.println("What is your age?");
     int userAge = in.nextInt();
     
-    String title = "";
-    if (userAge > 18) { //If they're over 18, they are titled an adult
-       title = "Adult";
-    } else {  //if they're not over 18, I don't want a title
-      System.out.println("Sorry, not quite yet.");
-    }
-
-    System.out.println(title);
-    
-    //Looking at the logic above, why do you think the program won't work? 
-    // It doesn't work because the information to execute the program is commented 
-
-    //Copy the code below, and try to find a solution.
-    //Comment the code above to avoid compilation errors.
-
-    
 //    String title = "";
-//    
 //    if (userAge > 18) { //If they're over 18, they are titled an adult
 //       title = "Adult";
 //    } else {  //if they're not over 18, I don't want a title
 //      System.out.println("Sorry, not quite yet.");
 //    }
-//    if (!title.isEmpty()) {
-//    	System.out.println(" You are an "+ title);
-//    }
+//
+//    System.out.println(title);
+    
+    //Looking at the logic above, why do you think the program won't work? 
+    // It doesn't work because you need to declare a title 
+
+    //Copy the code below, and try to find a solution.
+    //Comment the code above to avoid compilation errors.
+
+    
+    String title = "";
+    
+    if (userAge > 18) { //If they're over 18, they are titled an adult
+       title = "Adult";
+    } else {  //if they're not over 18, I don't want a title
+      System.out.println("Sorry, not quite yet.");
+    }
+    if (!title.isEmpty()) {
+    	System.out.println(" You are an "+ title);
+    }
 
   }
 }
