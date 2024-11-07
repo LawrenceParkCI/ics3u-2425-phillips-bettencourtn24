@@ -33,6 +33,17 @@ public class IfChallenge {
 	} 
 	else { System.out.println("keep wholesome");
 	}
+	
+
+	
+	int oneDigit = favouriteNumber % 10;
+	if (oneDigit ==8) {
+			System.out.println("I too am full!");
+	}else if (oneDigit == 9) {
+		System.out.println("Canada is a nice country.");
+	} else {
+		System.out.println("Don't count on it.");
+		
 	}
 	/*
 
@@ -62,3 +73,4 @@ public class IfChallenge {
 
 
 	}
+}
