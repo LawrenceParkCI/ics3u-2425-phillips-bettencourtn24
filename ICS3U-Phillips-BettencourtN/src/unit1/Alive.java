@@ -14,7 +14,7 @@ public class Alive {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in); 
-		//			declare variables 
+		// declare variables 
 		int year1, month1, day1, year2, month2, day2, tdays;
 
 		//get the user input
