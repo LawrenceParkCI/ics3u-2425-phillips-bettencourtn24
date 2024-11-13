@@ -46,5 +46,7 @@ public class IfStatement2 {
     	System.out.println(" You are an "+ title);
     }
 
+    in.close();
+    
   }
 }

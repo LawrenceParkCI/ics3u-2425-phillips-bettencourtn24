@@ -8,9 +8,6 @@ import java.util.Scanner;
  * @author Noa Phillips-Bettencourt 
  */
 public class PositiveNegative {
-
-	private int number;
-
 	/**
 	 * Entry point to program 
 	 * @param args unused 
@@ -36,8 +33,9 @@ public class PositiveNegative {
 
 		} else {
 			System.out.println(number + " is not divisible by 7.");
-
 		}
+
+		sc.close();
 	}
 
 }

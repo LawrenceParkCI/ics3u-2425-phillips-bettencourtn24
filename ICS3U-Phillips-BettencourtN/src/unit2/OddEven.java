@@ -22,7 +22,7 @@ public class OddEven {
 		} else { 
 			System.out.println(number + " is an odd number.");
 		}
-
+		scanner.close();
 	}
 
 }

@@ -32,6 +32,8 @@ public class IfChallenge2 {
 		} else {
 			System.out.println("Numbers are strictly not in order");
 		}
+		
+		in.close();
 		//This is for the portfolio
 
 		/*Create a program that asks for three numbers.

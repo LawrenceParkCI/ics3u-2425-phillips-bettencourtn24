@@ -12,10 +12,6 @@ public class BasicBoolean {
 	 * @param args unused 
 	 */
 	public static void main(String[] args) {
-		//we've declared a variable called isPurple of boolean type
-		//Recall: boolean holds either __1______ or __0________
-		boolean isPurple = false;
-
 
 		/*
       Boolean Operators, Expressions
@@ -39,6 +35,8 @@ public class BasicBoolean {
 		//this prints out _____true___ because _______the first number is 5 and the third number is 5.5 meaning it is either considered smaller or even depending on if you change the third number to an int. _________
 		System.out.println("4: " + (firstNum <= thirdNum)); 
 
+	
+		
 		/*Test out these boolean operators. Figure out the meaning
 		 * > means: left side  is bigger than right side 
 		 * < means: right side is bigger than left side 

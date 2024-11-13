@@ -56,6 +56,9 @@ class StringComparison {
 		} else {
 			System.out.println("The names are not the same");
 		}
+		
+		in.close();
+		
 
 		//Run the code. What happens when you type the correct answer? The incorrect answer?
 		// Even when you put the correct answer the program says its wrong.  

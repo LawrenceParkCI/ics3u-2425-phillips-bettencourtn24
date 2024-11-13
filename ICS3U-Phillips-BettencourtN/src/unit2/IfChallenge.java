@@ -43,8 +43,10 @@ public class IfChallenge {
 		System.out.println("Canada is a nice country.");
 	} else {
 		System.out.println("Don't count on it.");
-		
 	}
+	
+	in.close();
+	
 	/*
 
     (IF)
