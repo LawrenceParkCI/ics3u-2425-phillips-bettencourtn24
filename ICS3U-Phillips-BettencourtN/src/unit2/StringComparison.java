@@ -82,7 +82,7 @@ class StringComparison {
 
 		//What values does compareTo() return? How can we 
 		//interpret the value?
-		// compareTo() returns and integer values that describes if the first string is less than, equal to or greater then the second string.
+		// compareTo() returns an integer value that describes if the first string is less than, equal to or greater then the second string.
 
 		//what value does equals() and equalsIgnoreCase() return? 
 		//What is the difference between these two functions?
