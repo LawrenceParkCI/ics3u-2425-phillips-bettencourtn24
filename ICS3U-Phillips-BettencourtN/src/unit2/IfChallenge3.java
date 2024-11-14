@@ -15,11 +15,11 @@ public class IfChallenge3 {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		
+
 		// Keep track of score
 		int score = 0; 
 		int totalQuestions = 5;
-		
+
 		System.out.println("Ready to start a quiz? (yes/no):");
 		String userResponse = scanner.nextLine().trim().toLowerCase();
 
@@ -101,7 +101,7 @@ public class IfChallenge3 {
 			} else {
 				System.out.println("You are incorrect. The correct answer is d) A$AP Rocky");
 			}
-			
+
 			// Calculate percentage 
 			double percentage = ((double) score / totalQuestions) * 100;
 			//Final Score
