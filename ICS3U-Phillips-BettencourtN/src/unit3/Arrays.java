@@ -62,20 +62,20 @@ public class Arrays {
 		System.out.println(fruits[1]); 
 		//What does it print out? Did it match what you think it 
 		//should print?
-		// It printed out what I thoght it would print which is banana. 
-		
+		// It printed out what I thought it would print which is banana. 
+
 		//Try printing out the first and last fruit in the array
-		
+
 		// first fruit in the array.
 		System.out.println(fruitsModified[0]);
 		// Last fruit in the array.
-        System.out.println(fruitsModified[fruitsModified.length -1]);
+		System.out.println(fruitsModified[fruitsModified.length -1]);
 
 		//Create a new variable called sum. add the values of the marks
 		//array to it, and print it out.
-        
-        double sum = marks[0] + marks[1] + marks[2];
-        System.out.println("Sum of marks: " + sum); 
+
+		double sum = marks[0] + marks[1] + marks[2];
+		System.out.println("Sum of marks: " + sum); 
 
 
 		/**
@@ -91,8 +91,10 @@ public class Arrays {
 		fruits[0] = "Mangosteen";
 		System.out.println(fruits[0]);
 
-
 		//Assign the 3rd mark to be 0
+		marks[2] = 0;
+		System.out.println("Updated third mark: " + marks[2]);
+
 
 		/**
       Declaring and Initializing an empty array
@@ -102,20 +104,27 @@ public class Arrays {
 		System.out.println("Declaring and Initializing an empty array");
 		System.out.println("-----------------------------------------");
 		//When declaring an array, it works just like any other variable.
-		boolean [] isPassing;
-
 		//When initializing the array, you are simply creating the space
 		//in computer memory to store the values. The actual elements may not be
 		//initialized, depending on the language.
 
 		//this initialized the array to hold 5 elements
-		isPassing = new boolean[5];
+		boolean[] isPassing = new boolean[5];
 
 		System.out.println(isPassing[0]);
 
 		//Declare and initialize an array of 3 student names
+		System.out.println();
+		System.out.println("--------------------------------------");
+		System.out.println("Declaring and Initializing an array of 3 student names");
+		System.out.println("--------------------------------------");
+		String[] students = {"Victoria", "Daniella", "Ethan"};
+
 
 		//print out the first element. What does it say?
+		System.out.println("First student: " + students[0]);
+		// the above code prints Victoria
+
 
 		/*
       Initializing the elements of the array
@@ -134,21 +143,36 @@ public class Arrays {
 
 
 		//Initialize the elements of the student names. Print them out.
-
-
-		/**
-      Printing an array
-		 */
 		System.out.println();
-		System.out.println("-----------------");
-		System.out.println("Printing an array");
-		System.out.println("-----------------");
+		System.out.println("--------------------------------------");
+		System.out.println("Initializing the elements of the student names array");
+		System.out.println("--------------------------------------");
+		String[] studentNames = new String[3]; // Declare an array for 3 students
 
-		System.out.println(isPassing);
-		//What do you see printed? Is it useful for us?
+		// Assigning values 
+		studentNames[0] = "Victoria";
+		studentNames[1] = "Emily";
+		studentNames[2] = "Ethan";
 
-		//How do you think we can print out each element of the array?
+		// Printing the names
+		for (int i = 0; i < studentNames.length; i++) {
+			System.out.println("Student " + (i + 1) + ": " + studentNames[i]);
 
+			/**
+      Printing an array
+			 */
+			System.out.println();
+			System.out.println("-----------------");
+			System.out.println("Printing an array");
+			System.out.println("-----------------");
+
+			System.out.println(isPassing);
+			//What do you see printed? Is it useful for us?
+			// The code printed is not useful: [Z@490d6c15  
+
+			//How do you think we can print out each element of the array?
+			// To print each element of the array, you can use a for loop, or Arrays.toString() to print the whole array at once.
+		}
 	}
 }
 
