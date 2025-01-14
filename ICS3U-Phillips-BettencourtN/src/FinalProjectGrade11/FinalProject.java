@@ -33,6 +33,11 @@ public class FinalProject {
 				break;
 			}
 		}
+		
+	// After completing all 10 levels 
+		if (level>10) {
+			c.println("Congradulations you have compelted all 10 levels!");
+		}
 
 	}
 	/**
@@ -113,7 +118,7 @@ public class FinalProject {
 				}
 			}
 		}
-		return true;
+		return true; 
 
 	}
 }
