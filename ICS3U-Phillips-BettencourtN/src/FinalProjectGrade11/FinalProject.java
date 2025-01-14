@@ -2,8 +2,14 @@ package FinalProjectGrade11;
 
 import java.util.Scanner;
 
+import javax.imageio.ImageIO;
+
 import hsa_new.Console;
 
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
 /**
  * Description: This program contains code for a guessing game called Whisper Box, where the user is given a riddle and must guess what object is in the box using it.  
@@ -12,6 +18,9 @@ import java.util.Random;
  */
 public class FinalProject {
 
+	private static BufferedImage intro = null;
+	private static BufferedImage mainbackground = null;
+	private static BufferedImage congratulations = null;
 	static Console c = new Console();
 	static Random random = new Random();
 
@@ -20,8 +29,19 @@ public class FinalProject {
 	 * @param args unused
 	 */
 	public static void main(String[] args) {
+			
+		try {
+			intro = ImageIO.read(new File ("src/FinalProjectGrade11/Intro.png"));
+			mainbackground = ImageIO.read(new File ("src/FinalProjectGrade11/Mainbackground.png"));
+			congratulations = ImageIO.read(new File ("src/FinalProjectGrade11/congratulations.png"));
+			
+		}catch (IOException e) {
+			e.printStackTrace();
+		}
+		c.drawImage (intro,  0, 100, 600, 500, null);
 		c.println("Welcome to the Whisper Box Guessing Game!");
-		c.println("With Riddles and clues try to guess what's inside the mystery box.");
+		c.println("With riddles and clues try to guess what's inside the mystery box.");
+		c.println("You will be given three attempts to guess each object.");
 		c.println("Good luck! Press any key and enter to continue.");
 		c.readLine(); 
 
@@ -36,7 +56,8 @@ public class FinalProject {
 		
 	// After completing all 10 levels 
 		if (level>10) {
-			c.println("Congradulations you have compelted all 10 levels!");
+			c.drawImage (congratulations,  0, 150, 500, 350, null);
+			c.println("Congratulations you have completed all 10 levels!");
 		}
 
 	}
@@ -45,18 +66,20 @@ public class FinalProject {
 	 * @param level the current level of the game.
 	 */
 	public static boolean playLevel(int level) {
-		String [] mysteryItem = {"piano", "pen", "clock", "mirror", "Watermelon", "Umbrella", "Moon", "Shoes","book", "candle" };
+		String [] mysteryItem = {"Piano", "Pen", "Clock", "Mirror", "Watermelon", "Umbrella", "Moon", "Shoes","Book", "Candle" };
 		String [][] clues = {
 				{"I have many keys, yet can't open doors. What am I?",
 					"I am played with fingers, but I am not a game. What am I?", 
 				"You sit infront of me to play me. What am I?"},
 
-				{"I’m a small conductor of thought and can leave a mark that endures with age. What am I?", 
+				{"I’m a small conductor of thought and can leave a mark that endures with age. "
+						+ "What am I?", 
 					"Though I have no feet, I leave a trace. What am I?", 
 				"I write on paper, but I don’t erase. What am I?"},
 
 				{"I am always running but never moving, with hands that reach, but never touch. What am I?",
-					"I show you what's ahead, but never travel and help you plan, but am never in the race. What am I?",
+					"I show you what's ahead, but never travel and help you plan, but am never in the race. "
+					+ "What am I?",
 				"With hands that move but never touch, I help you know when it's time to rush. What am I?"},
 
 				{"I show you truth, but don’t speak a word, I stay silent, though my image is heard. What am I?",
@@ -89,9 +112,15 @@ public class FinalProject {
 
 
 
-		};
-		int guessesLeft = 3; // player has three guesses per level
+		}; 
+		
 
+	
+		
+		int guessesLeft = 3; // player has three guesses per level
+		c.clear();
+		c.drawImage (mainbackground,  0, 0, 600, 500, null); 
+		
 		c.println("Level " +level);
 		c.println("Clue 1: " +clues[level-1][0]);
 		while(guessesLeft>0){
