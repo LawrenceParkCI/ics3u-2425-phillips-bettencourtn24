@@ -70,7 +70,7 @@ public class FinalProject {
 
 	/**
 	 * Method to show the final screen with either the congratulations or game over message. 
-	 * @param Level the current level, used to determine if the user completed all levels. 
+	 * @param Update the current level to track the user's progress and determine if all levels have been completed. 
 	 */
 	public static void showFinalScreen(int level) {
 		// After all levels are completed, show congratulations
@@ -80,7 +80,7 @@ public class FinalProject {
 			c.println("Congratulations you have completed all 10 levels!");
 		} else { // If game was ended before completing all levels
 			c.drawImage (gameover,  0, 0, 600, 500, null);
-			c.println("Game Over.");
+			c.println("");
 		}
 
 	}
@@ -92,7 +92,7 @@ public class FinalProject {
 	public static boolean playLevel(int level) {
 
 		// Mystery items and their associated clues 
-		String [] mysteryItem = {"Piano", "Pen", "Clock", "Mirror", "Watermelon", "Umbrella", "Moon", "Shoes","Book", "Candle" };
+		String [] mysteryItem = {"piano", "pen", "clock", "mirror", "watermelon", "umbrella", "moon", "shoes","book", "candle" };
 		String [][] clues = {
 				{"I have many keys, yet can't open doors. What am I?",
 					"I am played with fingers, but I am not a game. What am I?", 
